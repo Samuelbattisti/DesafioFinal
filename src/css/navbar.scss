@@ -1,0 +1,24 @@
+@use 'variaveis'; 
+
+.navbar-theme {
+    background: transparent;
+    #input-pesquisar{
+        border: 2px solid variaveis.$violet-noticias;
+    }
+    input#input-pesquisar::placeholder{
+        color: variaveis.$violet-noticias;
+    }
+    .btn-pesquisar {
+        background: variaveis.$red-noticias;
+        border: 2px solid variaveis.$violet-noticias;
+        color: variaveis.$violet-noticias;
+        text-decoration: none;
+        line-height: 1;
+        box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.3);
+        transition: 0.3s;
+        
+        &:hover {
+            box-shadow: 0 0 rgba(0, 0, 0, .3);
+        }
+    }
+}
