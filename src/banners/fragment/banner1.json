@@ -1,0 +1,36 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "name": "backgroundColor",
+                    "label": "Cor da película do componente",
+                    "type": "colorPalette",
+                    "dataType": "object",
+                    "defaultValue": {
+                        "cssClass": "verde-escuro",
+                        "rgbValue": "rgb(0, 78, 76)"
+                    }
+                },
+                {
+                    "name": "headingColor",
+                    "label": "Heading Color",
+                    "description": "heading-color",
+                    "type": "colorPicker",
+                    "defaultValue": "#FF0000"
+                },
+              
+                {
+                    "name": "buttonTextColor",
+                    "label": "Cor de texto do botão",
+                    "type": "colorPalette",
+                    "dataType": "object",
+                    "defaultValue": {
+                        "cssClass": "branco",
+                        "rgbValue": "rgb(255,255,255)"
+                    }
+                }
+            ]
+        }
+    ]
+}

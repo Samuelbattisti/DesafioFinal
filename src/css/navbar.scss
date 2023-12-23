@@ -1,7 +1,7 @@
 @use 'variaveis'; 
 
 .navbar-theme {
-    background: transparent;
+    background: variaveis.$red-noticias;;
     #input-pesquisar{
         border: 2px solid variaveis.$violet-noticias;
     }

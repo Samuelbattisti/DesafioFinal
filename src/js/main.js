@@ -33,7 +33,7 @@ Liferay.Portlet.ready(function (_portletId, _node) { });
 Liferay.on('allPortletsReady', function () {
 
 
-var cardDivs = document.querySelectorAll('div.card');
+var cardDivs = document.querySelectorAll('div.');
 
 
 var zindex = 1;
